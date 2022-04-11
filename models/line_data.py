@@ -11,7 +11,7 @@ class Stop(BaseModel):
         return other == self.stop_name
 
     def __str__(self):
-        return f"{self.stop_name} on line {self.on_line}"
+        return f"Travel to {self.stop_name} on {self.on_line} line"
 
 class LineData(BaseModel):
     line_name: str

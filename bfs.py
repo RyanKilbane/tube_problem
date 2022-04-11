@@ -23,7 +23,3 @@ def bfs(graph, start, stop):
                 if neighbour == stop:
                     return new_path
             explored.append(node)
-
-
-# def bfs_objects(graph, start: str, stop: str):
-#     pass

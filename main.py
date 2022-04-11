@@ -12,7 +12,6 @@ def main():
     args = parser.parse_args()
     graph = load_data("line_data.json")
     graph = build_adj_list(graph)
-    # print(graph)
 
     path = bfs(graph, args.start, args.stop)
     path_str = '\n'.join(str(i) for i in path)

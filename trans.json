@@ -1,0 +1,72 @@
+{
+  "Highbury Islington": [
+    "Kings Cross"
+  ],
+  "Kings Cross": [
+    "Farringdon",
+    "Euston",
+    "Highbury Islington",
+    "Russell Square"
+  ],
+  "Euston": [
+    "Kings Cross",
+    "Warren Street"
+  ],
+  "Warren Street": [
+    "Euston",
+    "Oxford Circus"
+  ],
+  "Oxford Circus": [
+    "Warren Street",
+    "Green Park"
+  ],
+  "Green Park": [
+    "Bond Street",
+    "Piccadilly Circus",
+    "Oxford Circus"
+  ],
+  "Russell Square": [
+    "Kings Cross",
+    "Holborn"
+  ],
+  "Holborn": [
+    "Covent Garden",
+    "Russell Square"
+  ],
+  "Covent Garden": [
+    "Leicester Square",
+    "Holborn"
+  ],
+  "Leicester Square": [
+    "Covent Garden",
+    "Piccadilly Circus"
+  ],
+  "Piccadilly Circus": [
+    "Leicester Square",
+    "Green Park"
+  ],
+  "Liverpool Street": [
+    "Farringdon"
+  ],
+  "Farringdon": [
+    "Tottenham Court Road",
+    "Kings Cross",
+    "Liverpool Street",
+    "Barbican"
+  ],
+  "Tottenham Court Road": [
+    "Bond Street",
+    "Farringdon"
+  ],
+  "Bond Street": [
+    "Tottenham Court Road",
+    "Baker Street",
+    "Green Park"
+  ],
+  "Baker Street": [
+    "Bond Street"
+  ],
+  "Barbican": [
+    "Farringdon"
+  ]
+}

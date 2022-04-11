@@ -1,0 +1,24 @@
+{
+    "lines": [
+        {
+            "line_name": "victoria",
+            "stops": ["Highbury Islington", "Kings Cross", "Euston", "Warren Street", "Oxford Circus", "Green Park"] 
+        },
+        {
+            "line_name": "piccadilly",
+            "stops": [ "Kings Cross", "Russell Square", "Holborn", "Covent Garden", "Leicester Square", "Piccadilly Circus", "Green Park" ]
+        },
+        {
+            "line_name": "crossrail",
+            "stops": [ "Liverpool Street", "Farringdon", "Tottenham Court Road", "Bond Street" ] 
+        },
+        {
+            "line_name": "jubilee",
+            "stops": [ "Baker Street", "Bond Street", "Green Park" ] 
+        },
+        {
+            "line_name": "circle",
+            "stops": [ "Euston", "Kings Cross", "Farringdon", "Barbican" ]
+        }
+    ]
+}

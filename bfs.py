@@ -11,7 +11,10 @@ def bfs(graph, start, stop):
         path = queue.pop(0)
         node = path[-1]
         if node not in explored:
-            neighbours = graph[node]
+            if isinstance(node, str):
+                neighbours = graph[node]
+            else:
+                neighbours = graph[node.stop_name]
             for neighbour in neighbours:
                 new_path = list(path)
                 new_path.append(neighbour)

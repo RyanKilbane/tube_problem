@@ -12,9 +12,10 @@ def main():
     args = parser.parse_args()
     graph = load_data("line_data.json")
     graph = build_adj_list(graph)
-    graph = convert_to_node_objects(graph)
+    # print(graph)
 
     path = bfs(graph, args.start, args.stop)
-    print(path)
+    path_str = '\n'.join(str(i) for i in path)
+    print(path_str)
 
 main()
